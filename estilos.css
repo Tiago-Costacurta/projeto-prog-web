@@ -1,44 +1,58 @@
 /*Estilos CSS */
 body {
     color: #000;
-    font: 12px Verdana, sans-serif;
-    background-image: url(background/alinhamento2.jfif);
-    
+    background-image: url(background/alinhamento2.jfif);    
+    background-size: 100%;
+    margin: 1;
 }
-header{
+.header{
     color: ivory;
-    width: 30%;
-    margin: 10; padding: 10;
+    margin: 10;
+    text-align: center;
 
 }
-#conteudo {
+
+.conteudo {
     width: 70%;
-    float: right;
+    float:right;
     text-align: center;
     color: white;
+    padding-top: 100px;
+    padding-right: 140px;
 }
-#Menu{
-    width: 30%;
-	margin: 0; padding: 0;
-	float: left;
-    color: mistyrose;
+
+a:visited {
+    color:initial;
 }
-#menu ul li {
-    margin: 0; padding: 0px;
-    border-bottom: 1px solid #CCC;
+
+.menu{
+    background-color: lightgrey;
+    opacity: 50%;
+    height: 75%;
+    width: 10%;
+    position: absolute;
+}
+
+.menu li{
+    padding: 10px;
+}
+
+.menu ul {
+    margin: 0; 
+    padding: 0px;
     text-align: left;
     list-style-type: none;
+    width: 10%;
 }
-#menu a:link {
-	background: #fdfdff;
-	color: rgb(0, 0, 0);
+
+.menu a:link {
+    color: rgb(0, 0, 0);
     font-weight: bold;
 	text-decoration: none;
     padding: 0px;
 }
 
-#menu a:hover {
-    background: #E5F0FF;
+.menu a:hover {
     color: #039;
 }
 #Itensnaousados{
