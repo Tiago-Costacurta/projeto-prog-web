@@ -2,21 +2,26 @@
 body {
     color: #000;
     font: 12px Verdana, sans-serif;
+    background-image: url(background/alinhamento2.jfif);
+    
 }
 header{
-    text-align: center;
-    
+    color: ivory;
+    width: 30%;
+    margin: 10; padding: 10;
 
 }
 #conteudo {
     width: 70%;
     float: right;
     text-align: center;
+    color: white;
 }
 #Menu{
     width: 30%;
 	margin: 0; padding: 0;
 	float: left;
+    color: mistyrose;
 }
 #menu ul li {
     margin: 0; padding: 0px;
@@ -25,15 +30,17 @@ header{
     list-style-type: none;
 }
 #menu a:link {
-	background: #F5F5F5;
-	color: #666;
+	background: #fdfdff;
+	color: rgb(0, 0, 0);
     font-weight: bold;
 	text-decoration: none;
-    padding: 8px;
-    display: block;
+    padding: 0px;
 }
 
 #menu a:hover {
     background: #E5F0FF;
     color: #039;
+}
+#Itensnaousados{
+    display: block;
 }
