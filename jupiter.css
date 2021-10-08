@@ -1,0 +1,55 @@
+body {
+    color: rgb(0, 0, 0);
+    background-image: url(background/1234.jpg);    
+    background-size: 100%;
+}
+
+.header{
+    color: rgb(255, 255, 255);
+    margin: 10;
+    text-align: center;
+    font-size: 50px;
+}
+
+.div1{
+    padding-left: 50px;
+    display:inline-flex;
+}
+
+.div2{
+    padding-top: 30px;
+    width: 20%;
+}
+
+.mercurio{
+    width: 200px;
+    border: solid;
+    border-color: white;
+    border-radius: 10px;
+}
+
+.conteudo{
+    width: 70%;
+    padding-right: 100px;
+    color: white;
+}
+
+.div3{
+    text-align: center;
+    color: white;
+}
+
+.div3 p{
+    font-size: 20px;
+}
+
+.curiosidades{
+    color: white;
+}
+
+.retorno a{
+    padding-bottom: 10px;
+    padding-right: 10px;
+    float: right;
+    color: honeydew;
+}

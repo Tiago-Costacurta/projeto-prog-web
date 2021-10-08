@@ -1,0 +1,58 @@
+body {
+    color: #000;
+   
+    background-image: url(background/terra4.jpg);    
+    background-size: 100%;
+  
+    
+}
+
+.header{
+    color: ivory;
+    margin: 10;
+    text-align: center;
+    font-size: 30px;
+}
+
+.div1{
+    padding-left: 50px;
+    display:inline-flex;
+}
+
+.div2{
+    padding-top: 30px;
+    width: 30%;
+}
+
+.mercurio{
+    width: 200px;
+    border: solid;
+    border-color: white;
+    border-radius: 10px;
+}
+
+.conteudo{
+    width: 170%;
+    padding-right: 100px;
+    color: white;
+}
+
+.div3{
+    text-align: center;
+    color: white;
+}
+
+.div3 p{
+    font-size: 20px;
+}
+
+.curiosidades{
+    color: white;
+}
+
+.retorno a{
+    padding-bottom: 10px;
+    padding-right: 10px;
+    float: right;
+    color: honeydew;
+}
